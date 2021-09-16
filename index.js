@@ -11,3 +11,7 @@ const server = http.createServer((req, res)=>{
 
     res.end('Welcome!!!')
 })
+
+server.listen(port, hostname, ()=>{
+    console.log('Server no ar!!!')
+})
